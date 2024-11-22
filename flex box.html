@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .parent
+        {
+        width:70%;
+        height:400px;
+        background-color:pink;
+        border:1px solid black;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        justify-content:center;/*flex-end,flex-start(default),space-around,space-between,space-evenly*/
+       /* align-items:center;/*flex-start,end,center*/
+       flex-direction:column;
+
+        }
+        .child
+        {
+        width:30%;
+        height:200px;
+        border:1px solid black;
+        }
+        .child:nth-child(1)
+        {
+        background-color:red;
+        }
+        .child:nth-child(2){
+        background-color:yellow;
+        }
+        .child:nth-child(3){
+        background-color:green;
+        }
+
+
+    </style>
+</head>
+<div class="parent">
+    <div class="child">one</div>
+    <div class="child">two</div>
+    <div class="child">three</div>
+</div>
+
+</body>
+</html>

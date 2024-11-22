@@ -1,0 +1,10 @@
+x=2
+y=3
+print(x&y)
+print(x/y)
+print(x^y)
+print(~x)
+print(x<<2)
+print(x>>2)
+print(x<<1)
+print(x>>1)
